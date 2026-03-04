@@ -10,6 +10,17 @@
 
   <ItemGroup>
     <PackageReference Include="FastReport.OpenSource" Version="2026.1.4" />
+    <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2026.1.4" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3800.47" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\64KB.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Reports\demo.frx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
