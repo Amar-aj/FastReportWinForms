@@ -31,7 +31,7 @@ To run this project, ensure you have:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/FastReportWinForms.git
+    git clone https://github.com/Amar-aj/FastReportWinForms.git
     cd FastReportWinForms/FastReportWinForms
     ```
 
